@@ -3,7 +3,7 @@
   "description": "textarea component for React which grows with content",
   "version": "4.0.5",
   "keywords": "autosize, grow, react, react-component, textarea",
-  "repository": "andreypopp/react-textarea-autosize",
+  "repository": "eveniusgill/react-textarea-autosize",
   "license": "MIT",
   "main": "lib/TextareaAutosize.js",
   "author": "Andrey Popp <8mayday@gmail.com> (https://andreypopp.com/)",
@@ -22,7 +22,6 @@
     "eslint-config-prometheusresearch": "^0.2.0",
     "eslint-plugin-react": "^6.1.2",
     "preact": "^6.3.0",
-    "preact-dom": "^1.0.1",
     "watchify": "^3.7.0"
   },
   "files": [
