@@ -1,5 +1,5 @@
 {
-  "name": "react-textarea-autosize",
+  "name": "preact-textarea-autosize",
   "description": "textarea component for React which grows with content",
   "version": "4.0.5",
   "keywords": "autosize, grow, react, react-component, textarea",
