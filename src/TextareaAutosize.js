@@ -2,7 +2,7 @@
  * <TextareaAutosize />
  */
 
-import { Component } from 'preact';
+import { Component, h, render } from 'preact';
 import calculateNodeHeight from './calculateNodeHeight';
 
 const emptyFunction = function() {};
@@ -51,13 +51,11 @@ export default class TextareaAutosize extends Component {
     if (maxHeight < this.state.height) {
       props.style.overflow = 'hidden';
     }
-    return (
-      <textarea
-        {...props}
-        onChange={this._onChange}
-        ref={this._onRootDOMNode}
-        />
-    );
+    return h('textarea', {
+        onChange:this._onChange,
+        ref:this._onRootDOMNode,
+        ...props
+      });
   }
 
   componentDidMount() {
